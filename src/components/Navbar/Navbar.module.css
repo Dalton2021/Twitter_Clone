@@ -1,0 +1,196 @@
+.navbar {
+  background-color: #14171a;
+  height: 100vh;
+  width: 25vw;
+}
+.btmNav {
+  visibility: hidden;
+}
+
+.index {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navLinksDropdown {
+  color: #fff !important;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.profilePicture {
+  margin-right: 3px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  transition: 1s;
+}
+
+.btn {
+  background-color: #43b1f5;
+  border: none;
+  border-radius: 30px;
+  font-weight: 550;
+  font-size: 20px;
+  width: 15vw;
+}
+
+.navLinksActiveProfile {
+  width: 30px;
+  height: 30px;
+  margin-right: 3px;
+  border-radius: 50%;
+}
+
+.navLinksDropdownItem {
+  font-weight: 550;
+  font-size: 20px;
+  color: #fff;
+}
+
+.navLinkIcon {
+  font-size: 20px;
+  width: 30px;
+}
+
+.navLinksDropdownItem:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+.navContent {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.navLinkGroup {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.navLinks {
+  color: #fff !important;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.navLinksIcon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.navLinksIconHome {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-right: 10px;
+}
+
+.navLinkColumn {
+  display: block;
+}
+
+.navLinksActive {
+  color: #43b1f5 !important;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.navLinksIconActive {
+  color: #43b1f5 !important;
+  font-size: 25px;
+  font-weight: 550;
+  margin-right: 10px;
+}
+
+.navLinksIconHomeActive {
+  color: #43b1f5 !important;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.navLinksActive:hover {
+  color: #fff !important;
+}
+
+.navLinkGroup a:hover {
+  color: #43b1f5 !important;
+}
+
+.logo {
+  padding-left: 0.5rem;
+  height: 50px;
+  fill: #43b1f5;
+}
+
+.navLinkGroupBtm {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.navbarText {
+  color: #fff !important;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    width: 28vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .btmNav {
+    background-color: #2d3031;
+    height: 10vh;
+    max-height: 10vh;
+    min-height: 10vh;
+    width: 100%;
+    visibility: visible;
+  }
+
+  .navLinkGroup {
+    min-width: 30px;
+  }
+
+  .navLinksIconHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 30px;
+  }
+
+  .navLinksIconHomeActive {
+    font-size: 30px;
+  }
+
+  .profilePicture {
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+  }
+
+  .navLinksIcon {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 35px;
+  }
+
+  .navLinksIconActive {
+    font-size: 35px;
+    color: #43b1f5;
+  }
+
+  .navContent {
+    padding-right: 25px;
+    padding-top: 0;
+    margin-top: -5px;
+  }
+
+  .logo {
+    display: none;
+  }
+}

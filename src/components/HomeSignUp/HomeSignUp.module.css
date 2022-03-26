@@ -1,0 +1,45 @@
+.flex {
+  display: flex;
+}
+
+.logoBg {
+  width: 100%;
+  background-image: url(../../assets/home-bg.png);
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 20rem;
+  fill: #fff;
+}
+
+.imgBtm {
+  display: none;
+}
+
+.container {
+  background-color: #000;
+}
+
+@media(max-width:988px) {
+  .logoBg {
+    display: none;
+  }
+  .imgBtm {
+    width: 100%;
+    background-image: url(../../assets/home-bg.png);
+    height: 25vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .logo {
+    height: 8rem;
+  }
+}
+

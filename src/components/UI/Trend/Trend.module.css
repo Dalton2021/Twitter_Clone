@@ -1,0 +1,64 @@
+.trend {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.trendingWhere {
+  font-size: 14px;
+  color: rgb(184, 181, 181);
+}
+
+.hashtag {
+  width: 60%;
+  word-wrap: break-word;
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.card {
+  width: 23vw;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  border: 1px solid rgba(184, 181, 181, 0.8);
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(184, 181, 181);
+}
+
+.content {
+  color: #fff;
+  font-size: 12px;
+  display: -webkit-box;
+  width: 90%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.image {
+  border-radius: 15px;
+  width: 100px;
+  margin-top: -11px;
+  margin-bottom: -1px;
+  margin-right: -2px;
+}
+
+.tweets {
+  font-size: 20px;
+  color: rgb(184, 181, 181);
+  font-weight: 650;
+}
+
+.peopleTweeting {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+}

@@ -1,0 +1,133 @@
+.stars {
+  width: 10%;
+  min-width: 55px !important;
+  object-fit: contain;
+  transform: rotate(180deg);
+}
+
+.index {
+  z-index: 3000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeHeader {
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.border {
+  border: 2px solid rgba(63, 63, 63, 0.3);
+  border-top: none;
+  border-radius: 3px;
+}
+
+.textbox {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+}
+
+.textboxTweet {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: rgb(145, 145, 145);
+  overflow-wrap: break-word;
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  transition: 0.7s;
+  resize: none;
+}
+
+.textboxTweet:focus {
+  border: 1px solid #127cbe;
+  outline: 1px;
+  border-radius: 10px;
+  height: 80px;
+  transition: 0.5s;
+}
+
+.profilePicture {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.borderBtm {
+  border: 2px solid rgba(63, 63, 63, 0.3);
+  border-bottom: 15px solid rgba(63, 63, 63, 0.3);
+}
+
+.tweetOption {
+  color: #1da1f2;
+  opacity: 0.7;
+  margin-top: 5px;
+  margin-left: 70px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+.fileName {
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.tweetOption:hover {
+  color: #43b1f5;
+  cursor: pointer;
+}
+
+.tweetOption:focus {
+  color: #127cbe;
+}
+
+.tweetBtns {
+  margin-bottom: 10px;
+  display: flex;
+  /* flex: 1; */
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 50px;
+  color: #000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+}
+
+.btnBlue {
+  color: #fff;
+  background-color: #1da1f2;
+}
+
+.btnBlue:hover {
+  background-color: #158cd6;
+  color: #fff;
+}
+
+.characterCount {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 15px;
+  margin-left: 15px;
+}
